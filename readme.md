@@ -25,13 +25,13 @@ $ git clone https://github.com/vankessa/Quiz
 ## | if marks === collect answer ------------ get 100% marks-----------getting excelent          |
 ## | if marks <=20% ------------------------- get 20% marks ------------getting bad              |
 ## |if marks <=60% ---------------------------get 60% marks ----------getting average            |
-## | if marks <=80% --------------------------get 80% marks ---------getting good               |
+## | if marks <=80%--------------------------get 80% marks ---------getting good               |
 ## ------------------------------------------------------------------------------------------------
 
 	
 ## Support and contact details
 * Ujeneza Vanessa 
-* https://github.com/vankessa/ 
+* https://github.com/vankessa/Quiz 
 
 ## License
 This project is under MIT License. Copyright (c) 2018 Ujeneza Vanessa
