@@ -33,14 +33,15 @@ $(document).ready(function(){
       if (score <= 20) {
         $("#remark").append("<img src='img/bad.jpeg' alt='Bad'>");
       } else if (score <= 60) {
-        $("#remark").append("<img src='' alt='Average'>");
+        $("#remark").append("<img src='img/average.jpeg' alt='Average'>");
       } else if (score <= 80) {
-        $("#remark").append("<img src='' alt='Good'>");
+        $("#remark").append("<img src='img/good.jpeg' alt='Good'>");
       } else {
-        $("#remark").append("<img src='' alt='Excellent!'>");
+        $("#remark").append("<img src='img/excelent.jpg' alt='Excellent!'>");
+       
       }
     } else {
-      alert ("Please answer all the questions and submit again!");
+      alert ("Please answer all the questions and submit again! " );
     }
     $("#message").text(message);
     $(".carousel").remove();
