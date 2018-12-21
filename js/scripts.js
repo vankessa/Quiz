@@ -31,16 +31,16 @@ $(document).ready(function(){
       message = "Your score is:";
       $("#display").text(score+"%").fadeIn();
       if (score <= 20) {
-        $("#remark").append("<img src='images/bad.png' alt='Bad'>");
+        $("#remark").append("<img src='img/bad.jpeg' alt='Bad'>");
       } else if (score <= 60) {
-        $("#remark").append("<img src='images/average.png' alt='Average'>");
+        $("#remark").append("<img src='' alt='Average'>");
       } else if (score <= 80) {
-        $("#remark").append("<img src='images/good.png' alt='Good'>");
+        $("#remark").append("<img src='' alt='Good'>");
       } else {
-        $("#remark").append("<img src='images/excellent.png' alt='Excellent!'>");
+        $("#remark").append("<img src='' alt='Excellent!'>");
       }
     } else {
-      message = "Please answer all the questions and submit again!";
+      alert ("Please answer all the questions and submit again!");
     }
     $("#message").text(message);
     $(".carousel").remove();
