@@ -1,31 +1,23 @@
 ##JAVASCRIPT QUIZ BOARD
-<!-- JavaScript Quiz Bard App, 09/21/18
-By nignanthomas
-                                             _                               
-           o                                | |                              
-    _  _       __,  _  _    __,   _  _  _|_ | |     __   _  _  _    __,   ,  
-   / |/ |  |  /  | / |/ |  /  |  / |/ |  |  |/ \   /  \_/ |/ |/ |  /  |  / \_
-     |  |_/|_/\_/|/  |  |_/\_/|_/  |  |_/|_/|   |_/\__/   |  |  |_/\_/|_/ \/
-                /|                                                           
-                \|                                                           
-Description
-This app asks the user to take a test on JavaScript by answering questions and then display the score achieved by the user.
+JavaScript Quiz Bard App, 21/december/2018
+By Ujeneza Vanessa                                                
+##Description
+This application asks the user to take a test on JavaScript by answering questions and then display the score.
+##Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
+* Git
+## Live Demo
+<!-- https://nignanthomas.github.io/quiz-board/ -->
 
-Technologies Used
-HTML
-CSS
-Bootstrap
-JavaScript
-jQuery
-Git
-Live Demo
-https://nignanthomas.github.io/quiz-board/
-
-Installation Requirements
+##Installation Requirements
 Clone to your computer using Terminal 
-$ git clone https://github.com/nignanthomas/quiz-board/
+<!-- $ git clone https://github.com/nignanthomas/quiz-board/ -->
 
-BDD Specifications
+<!-- BDD Specifications
 Behavior	Input Example	Output Example
 User have 0 correct answer	"1.A framework", "2.", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 0 weary
 User have 1 correct answer	"1.A framework", "2.<script>", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 20 weary)
@@ -40,4 +32,4 @@ Thomas NIGNAN
 https://github.com/nignanthomas/
 
 License
-This project is under MIT License. Copyright (c) 2018 nignanthomas -->
+This project is under MIT License. Copyright (c) 2018 nignanthomas --> -->
