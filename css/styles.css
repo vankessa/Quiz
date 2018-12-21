@@ -1,15 +1,18 @@
 #bgcolor{
-    background-color:lightsalmon;
+    background-color:lightgrey;
 }
 h1 {
-    color:salmon;
+    color:brown;
 }
 button {
-    color: salmon;
+    color: brown;
 }
 p {
     color: brown;
 }
-i,a {
-color: lightsalmon;
+a {
+color: brown;
+}
+i{
+   color: green;
 }
