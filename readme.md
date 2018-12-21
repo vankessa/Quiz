@@ -10,16 +10,16 @@ This application asks the user to take a test on JavaScript by answering questio
 * JavaScript
 * jQuery
 * Git
-## Live Demo
-<!-- https://nignanthomas.github.io/quiz-board/ -->
+## Live github repository
+https://github.com/vankessa/Quiz
 
 ##Installation Requirements
 Clone to your computer using Terminal 
-<!-- $ git clone https://github.com/nignanthomas/quiz-board/ -->
+$ git clone https://github.com/vankessa/Quiz 
 
-<!-- BDD Specifications
-Behavior	Input Example	Output Example
-User have 0 correct answer	"1.A framework", "2.", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 0 weary
+##-- BDD Specifications
+##Behavior	Input Example	Output Example
+<!-- User have 0 correct answer	"1.A framework", "2.", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 0 weary
 User have 1 correct answer	"1.A framework", "2.<script>", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 20 weary)
 User have 2 correct answers	"1.A framework", "2.<script>", "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 40 expressionless
 User have 3 correct answers	"1.A framework", "2.<script>", "3.Both", "4.myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 60 expressionless
@@ -29,7 +29,7 @@ User leaves one field or more empty	"1.A framework", "2.<script>", "3.", "4.myFu
 User doesn't input anything	"1.", "2.", "3.", "4.", "5."	Re-submit
 Support and contact details
 Thomas NIGNAN 
-https://github.com/nignanthomas/
+https://github.com/nignanthomas/ -->
 
-License
-This project is under MIT License. Copyright (c) 2018 nignanthomas --> -->
+##License
+This project is under MIT License. Copyright (c) 2018 Ujeneza Vanessa
