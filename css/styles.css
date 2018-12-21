@@ -16,3 +16,23 @@ color: brown;
 i{
    color: green;
 }
+/* Small devices (tablets, 768px and up) */
+@media (min-height: 768px){
+    .container{
+        width: 768px;
+    }
+    }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container{
+        width:992px;
+    }
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container{
+        width:1200px;
+    }
+ }
