@@ -1,10 +1,10 @@
-$(document).ready(function() {
-    var optionsRadios1 = $("input:radio[name=optionsRadios1]:checked").val();
-    var optionsRadios2 = $("input:radio[name=optionsRadios2]:checked").val();
-    var optionsRadios3 = $("input:radio[name=optionsRadios3]:checked").val();
-    var optionsRadios4 = $("input:radio[name=optionsRadios4]:checked").val();
-    var optionsRadios5 = $("input:radio[name=optionsRadios5]:checked").val();
-  });
+ $(document).ready(function() {
+    var optionsRadios1 = $("input:radio[name=optionsRadios1]").val();
+    var optionsRadios2 = $("input:radio[name=optionsRadios2]").val();
+    var optionsRadios3 = $("input:radio[name=optionsRadios3]").val();
+    var optionsRadios4 = $("input:radio[name=optionsRadios4]").val();
+    var optionsRadios5 = $("input:radio[name=optionsRadios5]").val();
+ });
     // for radio buttons; value="10" for correct, value="0" for wrong
 
 //BUSINESS LOGIC : DRY CODE
@@ -52,5 +52,5 @@ $(document).ready(function(){
 function reload() {
   location.reload();
 }
-});
+
 
