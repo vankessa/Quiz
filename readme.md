@@ -10,8 +10,8 @@ This application asks the user to take a test on JavaScript by answering questio
 * JavaScript
 * jQuery
 * Git
-## Live github repository
-https://github.com/vankessa/Quiz
+## Live Demo
+ https://vankessa.github.io/Quiz/
 
 ## Installation Requirements
 Clone to your computer using Terminal 
