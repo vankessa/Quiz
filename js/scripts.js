@@ -4,29 +4,52 @@ $(document).ready(function() {
     var optionsRadios3 = $("input:radio[name=optionsRadios3]:checked").val();
     var optionsRadios4 = $("input:radio[name=optionsRadios4]:checked").val();
     var optionsRadios5 = $("input:radio[name=optionsRadios5]:checked").val();
-    $("#radioButtons form").submit(function(event) {
-        var radioButtons = ['optionsRadios6','optionsRadios7','optionsRadios8','optionsRadios9','optionsRadios10','optionsRadios11',];
-  
-        radioButtons.forEach(function(radioButton) {
-          var userInput = $("input#" + radioButton).val();
-          $("." + radioButton).text(userInput);
-        });
-  
-        $("#marks").show();
-  
-        event.preventDefault();
-      });
-    });
-    
-//    $('form').submit(function(event) {
-//        event.preventDefault();
+    // for radio buttons; value="10" for correct, value="0" for wrong
 
-//         var firstNumber = parseInt($('#first-number').val());
-//         var secondNumber = parseInt($('#second-number').val());
+//BUSINESS LOGIC : DRY CODE
+var score = 0;
+var complete = 0;
+var calculate = function(){
+  for (i = 1; i <= 5; i++) {
+    var response = $("input:radio[name=js"+i+"]:checked").val();
+    score += parseInt(response);
+    if (response != undefined) {
+      complete += 1
+    }
+  } // end for
+}// END BUSINESS LOGIC
 
-//         var sum = add(firstNumber, secondNumber);
-
-//         $('#result').text(sum);
-//    })
-
+// USER INTERFACE
+$(document).ready(function(){
+  $("form").submit(function(event){
+    event.preventDefault();
+    calculate();
+    var message = ""
+    var remark =""
+    if (complete === 5) {
+      message = "Your score is:";
+      $("#display").text(score+"%").fadeIn();
+      if (score <= 20) {
+        $("#remark").append("<img src='images/bad.png' alt='Bad'>");
+      } else if (score <= 60) {
+        $("#remark").append("<img src='images/average.png' alt='Average'>");
+      } else if (score <= 80) {
+        $("#remark").append("<img src='images/good.png' alt='Good'>");
+      } else {
+        $("#remark").append("<img src='images/excellent.png' alt='Excellent!'>");
+      }
+    } else {
+      message = "Please answer all the questions and submit again!";
+    }
+    $("#message").text(message);
+    $(".carousel").remove();
+    $("button.bg-success").fadeOut("slow");
+    $("div.your-score").slideUp(50);
+    $("div.your-score").slideDown(1500);
+  }) // end submit
+}) //END USER INTERFACE
+function reload() {
+  location.reload();
+}
+});
 
