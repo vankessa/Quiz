@@ -41,13 +41,13 @@ $(document).ready(function(){
        
       }
     } else {
-      alert ("Please answer all the questions and submit again! " );
+      alert ("Please answer all and submit again! " );
     }
     $("#message").text(message);
     $(".carousel").remove();
-    $("button.bg-success").fadeOut("slow");
-    $("div.your-score").slideUp(50);
-    $("div.your-score").slideDown(1500);
+     $("button.bg-success").fadeOut("slow");
+    $("div.your-score").slideUp(40);
+    $("div.your-score").slideDown(2000);
   }) // end submit
 }) //END USER INTERFACE
 function reload() {
