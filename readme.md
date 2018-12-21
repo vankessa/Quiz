@@ -1,9 +1,9 @@
-##JAVASCRIPT QUIZ BOARD
+## JAVASCRIPT QUIZ BOARD
 JavaScript Quiz Bard App, 21/december/2018
 By Ujeneza Vanessa                                                
-##Description
+## Description
 This application asks the user to take a test on JavaScript by answering questions and then display the score.
-##Technologies Used
+## Technologies Used
 * HTML
 * CSS
 * Bootstrap
@@ -13,12 +13,12 @@ This application asks the user to take a test on JavaScript by answering questio
 ## Live github repository
 https://github.com/vankessa/Quiz
 
-##Installation Requirements
+## Installation Requirements
 Clone to your computer using Terminal 
 $ git clone https://github.com/vankessa/Quiz 
 
-##-- BDD Specifications
-##Behavior	Input Example	Output Example
+## -- BDD Specifications
+## Behavior	Input Example	Output Example
 <!-- User have 0 correct answer	"1.A framework", "2.", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 0 weary
 User have 1 correct answer	"1.A framework", "2.<script>", "3.The ", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 20 weary)
 User have 2 correct answers	"1.A framework", "2.<script>", "3.Both", "4.call myFunction();", "5.var colors = (1:"red", 2:"green", 3:"blue");"	Your score is : 40 expressionless
@@ -31,5 +31,5 @@ Support and contact details
 Thomas NIGNAN 
 https://github.com/nignanthomas/ -->
 
-##License
+## License
 This project is under MIT License. Copyright (c) 2018 Ujeneza Vanessa
