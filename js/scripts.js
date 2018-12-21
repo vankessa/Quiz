@@ -4,6 +4,7 @@ $(document).ready(function() {
     var optionsRadios3 = $("input:radio[name=optionsRadios3]:checked").val();
     var optionsRadios4 = $("input:radio[name=optionsRadios4]:checked").val();
     var optionsRadios5 = $("input:radio[name=optionsRadios5]:checked").val();
+  });
     // for radio buttons; value="10" for correct, value="0" for wrong
 
 //BUSINESS LOGIC : DRY CODE
@@ -11,7 +12,7 @@ var score = 0;
 var complete = 0;
 var calculate = function(){
   for (i = 1; i <= 5; i++) {
-    var response = $("input:radio[name=js"+i+"]:checked").val();
+    var response = $("input:radio[name=optionsRadios"+i+"]:checked").val();
     score += parseInt(response);
     if (response != undefined) {
       complete += 1
