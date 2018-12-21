@@ -45,7 +45,7 @@ $(document).ready(function(){
     }
     $("#message").text(message);
     $(".carousel").remove();
-     $("button.bg-success").fadeOut("slow");
+     $("button.bg-success").fadeOut("fast");
     $("div.your-score").slideUp(40);
     $("div.your-score").slideDown(2000);
   }) // end submit
